@@ -86,3 +86,12 @@ $clr-hover: var(--clr-primary);
     }
 }
 
+input.ng-invalid.ng-touched {
+    border: 1px solid var(--clr-warning);
+}
+
+.validation_warning {
+    color: var(--clr-warning);
+    font-size: var(--fs-xsm);
+}
+
